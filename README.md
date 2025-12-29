@@ -20,6 +20,12 @@ In VirtualBox create a VM named Proxmox with it set to Linux and Debian 64 bit, 
 After creation, go the settings -> then to system and uncheck floppy and have it go from optical to hard disk, enable Enable I/O APIC and keep paravirtualization to default.  
 Have the adapter 1 as a bridged adapter, then for storage select the proxmox iso and put it there. After getting it set up start the vm and you will greeted by this screen:  
 <img width="1016" height="806" alt="image" src="https://github.com/user-attachments/assets/878ce2a1-c263-4989-9077-e5ddb8194814" />  
+After clicking on the first option, after a few minutes you will see the EULA screen and click I agree and then you will see this screen:  
+<img width="1275" height="800" alt="image" src="https://github.com/user-attachments/assets/9d6f17fe-6425-4485-8de4-c2212040e581" />  
+Make sure the hard disk is the VDI that was created and click on next.  
+Up next is the location and time zoon selection, make sure to select the create timezone, country, and keyboard layout.  
+Then you have to create your password and use a email address, then click next and set the network hostname to pve.local, then hit next to install and then wait a few minutes.  
+
 
 
 
