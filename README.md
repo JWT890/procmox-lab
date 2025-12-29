@@ -25,6 +25,10 @@ After clicking on the first option, after a few minutes you will see the EULA sc
 Make sure the hard disk is the VDI that was created and click on next.  
 Up next is the location and time zoon selection, make sure to select the create timezone, country, and keyboard layout.  
 Then you have to create your password and use a email address, then click next and set the network hostname to pve.local, then hit next to install and then wait a few minutes.  
+After waiting a few minutes, it will give you the ip address you can sign in with and write it down or take a picture with it. Then click reboot.  
+After hitting reboot, go to devices -> then optical drives -> and click remove disk from drive. After that let it run and boot up for a few minutes. Then you will see this screen:  
+<img width="1292" height="799" alt="image" src="https://github.com/user-attachments/assets/dfcb5654-d874-4069-8609-d0eab3d7ebb2" />  
+
 
 
 
