@@ -5,6 +5,7 @@ For this setup, you will need a 16 gig USB stick, two VMs a client Windows VM, a
 Link to download Proxmox: https://www.proxmox.com/en/downloads/proxmox-virtual-environment/iso  
 Link to download Balena Etcher: https://etcher.balena.io/
 
+# Proxox Flash section
 After downloading Proxmox, pull up the Balena Etcher app and you will greeted by this screen:  
 <img width="796" height="510" alt="image" src="https://github.com/user-attachments/assets/7c1b1933-a3ba-4acd-9b67-2438f1a8ac91" />  
 Click on flash from file and find the iso for the Proxmox file. After selecting the iso it will move on to select a target drive to flash too.  
@@ -13,6 +14,13 @@ After selecting select target:
 Select the flash drive option and you see this screen pop up:  
 <img width="806" height="508" alt="image" src="https://github.com/user-attachments/assets/d125667b-fea5-452f-abd4-945d8ca12f9e" />  
 Click on flash and wait a couple minutes.  
+
+# Procmox VM Setup
+In VirtualBox create a VM named Proxmox with it set to Linux and Debian 64 bit, 8 GB of Memory or 8142, then 4 processors assinged. 100 GB of space or more for the VDI.  
+After creation, go the settings -> then to system and uncheck floppy and have it go from optical to hard disk, enable Enable I/O APIC and keep paravirtualization to default.  
+Have the adapter 1 as a bridged adapter, then for storage select the proxmox iso and put it there. After getting it set up start the vm and you will greeted by this screen:  
+<img width="1016" height="806" alt="image" src="https://github.com/user-attachments/assets/878ce2a1-c263-4989-9077-e5ddb8194814" />  
+
 
 
 
