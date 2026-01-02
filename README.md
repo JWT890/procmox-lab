@@ -47,7 +47,33 @@ Windows Server 2022 Standard Evaluation (Desktop Experience)
 Installation Type: Custom  
 Disk Selection: Drive 0  
 
-After installing, create a strong admin password for the VM. After the server gets up go set a static IP address by opening up PowerShell as Administrator by right clicking on the start button and going to Windows PowerShell.  
+After installing, create a strong admin password for the VM. After the server gets up go set a static IP address by opening up PowerShell as Administrator by right clicking on the start button and going to Windows PowerShell (Admin).  
+First type Get-NetAdapter and you will see this:  
+<img width="974" height="505" alt="image" src="https://github.com/user-attachments/assets/1ae6be01-b683-4983-b415-d4686dec6188" />  
+Then type Rename-NetAdapter -Name "Ethernet" -NewName "Internal" and then Rename-NetAdapter -Name "Ethernet 2" -NewName "Internet"  
+Then type New-NetIPAddress -InterfaceAlias "Internal" -IPAddress 192.168.56.10 -PrefixLength 24 and you will see this:  
+<img width="902" height="493" alt="image" src="https://github.com/user-attachments/assets/87fcde8f-0b0e-4948-8682-bd87c1ba0797" />  
+Then Type Set-DndsClientServerAddress -InterfaceAlias "Internal" -ServerAddress 127.0.0.1  
+Then type Get-NetIPAddress -InterfaceAlias "Internal" and see this:  
+<img width="820" height="506" alt="image" src="https://github.com/user-attachments/assets/2d65ddc2-e792-4cb1-b5fc-1ff24b6804e4" />  
+Then type Get-DnsClientServerAddress -InterfaceAlias 'Internal" and see this:  
+<img width="662" height="129" alt="image" src="https://github.com/user-attachments/assets/c7fe9254-687e-4ce7-954e-7c879b8df500" />  
+Then type Test-Connection google.com -Count 2 and see this:  
+<img width="855" height="109" alt="image" src="https://github.com/user-attachments/assets/b6566556-1197-443a-8abc-e97a39ba2540" />  
+Then type Rename-Computer -NewName "DC01" -Restart to rename the Computer and restart for it to take affect.  
+After restarting go to PowerShell as Admin and type Install-WindowsFeature AD-Domain-Services -IncludeManagementTools and then wait for a few minutes.  
+Then go back to PowerShell Admin and copy and paste this:  
+Install-ADDSForest `  
+    -DomainName "lab.local" `  
+    -DomainNetbiosName "LAB" `  
+    -InstallDns `  
+    -SafeModeAdministratorPassword (ConvertTo-SecureString "YourDSRM_Password123!" -AsPlainText -Force) `  
+    -Force  
+
+
+
+
+
 
 
 
