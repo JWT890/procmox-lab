@@ -87,7 +87,31 @@ Then type New-ADOrganizationalUnit -Name "Finance" -Path "Ou=Departments,DC=lab,
 Then type New-ADOrganizationalUnit -name "Workstations" -Path "DC=Lab,DC=local".    
 Then type Get-ADOrganizationalUnit -Filter * | Select-Object Name, DistingguishedName to verify and the expected result:    
 <img width="850" height="190" alt="image" src="https://github.com/user-attachments/assets/77560213-cce7-430e-b53a-0d834f3cfc2a" />    
-Then go into the Powershell ISE and run the lab.ps1 script by looking in the code repo for this.    
+Then go into the Powershell ISE and run the lab.ps1 script by looking in the code repo for this.   
+Users created should be cbrown, dprince, bjohnson, jsmith, and awilliams.    
+Then go and create the security groups for the first security group:    
+<img width="479" height="81" alt="image" src="https://github.com/user-attachments/assets/19ad1dd3-be99-4ae5-b69f-fd4cffce93c4" />    
+For the second group:    
+<img width="453" height="87" alt="image" src="https://github.com/user-attachments/assets/7a142645-76d3-4c7b-966f-ecad5c443e38" />    
+For the third group:    
+<img width="485" height="83" alt="image" src="https://github.com/user-attachments/assets/fb5f7f19-07bc-4093-891d-f814c9217f73" />    
+And the fourth group:    
+<img width="493" height="83" alt="image" src="https://github.com/user-attachments/assets/a97473ec-ee6a-4436-a07e-db86774da567" />    
+Then add the users to the respective groups:    
+<img width="763" height="53" alt="image" src="https://github.com/user-attachments/assets/06b69a21-92a7-4afb-abfe-a3cb02b7e0d3" />    
+<img width="694" height="20" alt="image" src="https://github.com/user-attachments/assets/df4e54ee-9d6c-4035-a282-7ba5a53b7998" />    
+Then to verify the groups type this command with the IT-Admins group as on example:    
+<img width="838" height="110" alt="image" src="https://github.com/user-attachments/assets/741d594e-d303-456b-83cb-c7539a6c4dbf" />    
+
+# Windows 11 Client VM
+
+
+
+
+
+
+
+
 
 
 
