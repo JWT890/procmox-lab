@@ -112,7 +112,7 @@ Video Memory: 128 MB
 Adapter 1: Host Only    
 Adapter 2: NAT    
 Windows 11 iso download: https://www.microsoft.com/en-us/software-download/windows11    
-Choose the Windows 11 Home edition, US inputs, and choose the disk that was created, and then wait a while for the Windows 11 VM to get created.    
+Choose the Windows 11 Pro edition, US inputs, and choose the disk that was created, and then wait a while for the Windows 11 VM to get created.    
 
 
 
