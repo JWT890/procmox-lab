@@ -78,6 +78,19 @@ Then type Get-AD0rganizationalUnit -Filter *:
 <img width="876" height="257" alt="image" src="https://github.com/user-attachments/assets/c81f223c-85c8-42de-b658-b3136d2cf381" />    
 Then to test the DNS type nslookup lab.local and nslookup dc01.lab.local:    
 <img width="445" height="276" alt="image" src="https://github.com/user-attachments/assets/b88646d9-2e2d-4fc3-bf9d-49ceaadf48ca" />    
+Then go to the start menu and click on Windows Administrative Tools and click on Active Directory Users and Computers and expand the lab.local.    
+Then in PoweShell Admin type New-ADOrganizationalUnit -Name "Departments" -Path "DC=lab,DC=local".    
+Then type New-ADOrganizationalUnit -Name "IT" -Path "OU=Departments,DC=lab,DC=local".    
+Then type New-ADOrganizationalUnit -Name "HR" -Path "OU=Departments,DC=lab,DC=local".    
+Then type New-ADOrganizationalUnit -Name "Sales" -Path "OU=Departments,DC=lab,DC=local".    
+Then type New-ADOrganizationalUnit -Name "Finance" -Path "Ou=Departments,DC=lab,DC=local".    
+Then type New-ADOrganizationalUnit -name "Workstations" -Path "DC=Lab,DC=local".    
+Then type Get-ADOrganizationalUnit -Filter * | Select-Object Name, DistingguishedName to verify and the expected result:    
+<img width="850" height="190" alt="image" src="https://github.com/user-attachments/assets/77560213-cce7-430e-b53a-0d834f3cfc2a" />    
+Then go into the Powershell ISE and run the lab.ps1 script by looking in the code repo for this.    
+
+
+
 
 
 
