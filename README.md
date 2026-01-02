@@ -41,8 +41,8 @@ Base Memory: 4096 MB
 Processors: 2-4 CPUs
 Disk Size: 60 GB  
 Windows Server 2022 ISO  
-Network Adapter 1: NAT
-Network Adapter 2: Bridged Adapter
+Network Adapter 1: Host only    
+Network Adapter 2: NAT    
 Windows Server 2022 Standard Evaluation (Desktop Experience)  
 Installation Type: Custom  
 Disk Selection: Drive 0  
@@ -104,6 +104,14 @@ Then to verify the groups type this command with the IT-Admins group as on examp
 <img width="838" height="110" alt="image" src="https://github.com/user-attachments/assets/741d594e-d303-456b-83cb-c7539a6c4dbf" />    
 
 # Windows 11 Client VM
+Base Memory: 4096 MB    
+Windows 11 iso
+Processors: 2-4 CPUs
+Disk Size: 64 GB    
+Video Memory: 128 MB
+Adapter 1: Host Only    
+Adapter 2: NAT    
+
 
 
 
