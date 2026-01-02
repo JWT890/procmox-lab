@@ -37,6 +37,18 @@ After signing in:
 With Proxmox setup, it is time to setup the other VMs for this.  
 
 # Windows Server VM Setup
+Base Memory: 4096 MB  
+Processors: 2-4 CPUs
+Disk Size: 60 GB  
+Windows Server 2022 ISO  
+Network Adapter 1: NAT
+Network Adapter 2: Bridged Adapter
+Windows Server 2022 Standard Evaluation (Desktop Experience)  
+Installation Type: Custom  
+Disk Selection: Drive 0  
+
+After installing, create a strong admin password for the VM. After the server gets up go set a static IP address by opening up PowerShell as Administrator by right clicking on the start button and going to Windows PowerShell.  
+
 
 
 
