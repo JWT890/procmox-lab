@@ -105,12 +105,15 @@ Then to verify the groups type this command with the IT-Admins group as on examp
 
 # Windows 11 Client VM
 Base Memory: 4096 MB    
-Windows 11 iso
+Windows 11 iso    
 Processors: 2-4 CPUs
 Disk Size: 64 GB    
-Video Memory: 128 MB
+Video Memory: 128 MB    
 Adapter 1: Host Only    
 Adapter 2: NAT    
+Windows 11 iso download: https://www.microsoft.com/en-us/software-download/windows11    
+Choose the Windows 11 Home edition, US inputs, and choose the disk that was created, and then wait a while for the Windows 11 VM to get created.    
+
 
 
 
