@@ -69,6 +69,18 @@ Install-ADDSForest `
     -InstallDns `  
     -SafeModeAdministratorPassword (ConvertTo-SecureString "YourDSRM_Password123!" -AsPlainText -Force) `  
     -Force  
+And change the password to something more secure and write it down. Then wait for a few minutes.    
+After waiting for a few minutes, go back to the PowerShell admin and type Get-ADDomain to check for lab.local configuration. Type Get-ADDomain.   
+<img width="953" height="558" alt="image" src="https://github.com/user-attachments/assets/74726c87-cc24-4997-b54f-b11a6dc29e63" />    
+Then type Get-ADDomainController: 
+<img width="959" height="496" alt="image" src="https://github.com/user-attachments/assets/ecb1e738-9c65-49b0-8749-04226152586b" />   
+Then type Get-AD0rganizationalUnit -Filter *:    
+<img width="876" height="257" alt="image" src="https://github.com/user-attachments/assets/c81f223c-85c8-42de-b658-b3136d2cf381" />    
+Then to test the DNS type nslookup lab.local and nslookup dc01.lab.local:    
+<img width="445" height="276" alt="image" src="https://github.com/user-attachments/assets/b88646d9-2e2d-4fc3-bf9d-49ceaadf48ca" />    
+
+
+
 
 
 
