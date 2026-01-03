@@ -113,6 +113,7 @@ Adapter 1: Host Only
 Adapter 2: NAT    
 Windows 11 iso download: https://www.microsoft.com/en-us/software-download/windows11    
 Choose the Windows 11 Pro edition, US inputs, and choose the disk that was created, and then wait a while for the Windows 11 VM to get created.    
+After a long while, make sure to set it up as bare bones as you can since its being used with Proxmox and connecting with the other VM.    
 
 
 
