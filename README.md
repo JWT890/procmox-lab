@@ -114,6 +114,15 @@ Adapter 2: NAT
 Windows 11 iso download: https://www.microsoft.com/en-us/software-download/windows11    
 Choose the Windows 11 Pro edition, US inputs, and choose the disk that was created, and then wait a while for the Windows 11 VM to get created.    
 After a long while, make sure to set it up as bare bones as you can since its being used with Proxmox and connecting with the other VM.    
+Then get rid of the Windows 11 iso from the optical drive and replace it with the Vbox Guest Additions, power back on the VM, go to the C Drive and look for the VboxWindowsAdditions-amd64.exe and run it and then select the reboot option and restart to get back to the normal windows screen.    
+Next up on the Windows 11 VM is to go to settings and go to network and internet like so to the Ethernet l section:    
+<img width="1037" height="777" alt="image" src="https://github.com/user-attachments/assets/48c95ba1-2370-4d86-9c1f-609c8e4638cf" />    
+Then click on Ethernet and scroll to the details on the first connection, till you see this section:    
+<img width="858" height="307" alt="image" src="https://github.com/user-attachments/assets/d0c9bc38-d336-4d3e-b284-36a489b4b4e3" />    
+Click edit on the DNS server assignment, change from automatic to manual, turn IPv4 on, set preferred DNS to 192.168.56.10 and leave alternate DNS as blank and hit Save.    
+
+
+
 
 
 
