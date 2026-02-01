@@ -138,6 +138,20 @@ Then move on to the Appliance Settings:
 Then click on finish and wait for a while. Then repeat the process for the other VM.    
 
 # Proxmox File Transfer
+In the Proxmox site, go to the Datacenter option and expand it till you see pve, then expand it until you see the first local pop up:    
+<img width="1900" height="644" alt="image" src="https://github.com/user-attachments/assets/d2016d4e-3935-4750-a142-1f0dae7a096e" />    
+After clicking on local (pve) you will see an option to import files and more in one of the options:    
+<img width="544" height="247" alt="image" src="https://github.com/user-attachments/assets/37109223-b24f-4e34-be76-7310fa0c48b3" />    
+*Already uploading the DC01 OVA to test it*    
+To import files, click on import and then upload. After clicking on upload you will see this:    
+<img width="409" height="319" alt="image" src="https://github.com/user-attachments/assets/3c80b132-2de0-430b-b612-925beb60ba88" />    
+Then click on select file and find the Win11 client ova and select it:    
+<img width="419" height="316" alt="image" src="https://github.com/user-attachments/assets/1c33508b-b0e2-402c-9352-b703e671a099" />    
+Then click on upload and wait for a few minutes.    
+
+
+
+
 
 
 
