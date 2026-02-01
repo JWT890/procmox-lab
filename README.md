@@ -121,6 +121,27 @@ Then click on Ethernet and scroll to the details on the first connection, till y
 <img width="858" height="307" alt="image" src="https://github.com/user-attachments/assets/d0c9bc38-d336-4d3e-b284-36a489b4b4e3" />    
 Click edit on the DNS server assignment, change from automatic to manual, turn IPv4 on, set preferred DNS to 192.168.56.10 and leave alternate DNS as blank and hit Save.    
 
+To ensure that the VMs can talk to each other, make sure to have both VM's Adapter 1's set to the first adapter and run this command in the DC01:    
+<img width="1271" height="517" alt="image" src="https://github.com/user-attachments/assets/c31d81f5-c45a-4ae2-aaea-5e2b738a5734" />    
+And in the client run this command so that the DC01 VM can ping the Client VM:    
+<img width="1259" height="428" alt="image" src="https://github.com/user-attachments/assets/26096d61-2d44-4f22-b86a-ccfc10a66b16" />    
+
+# VM Exporting
+To export a VM, click on the File tab and click on export appliance:    
+<img width="502" height="89" alt="image" src="https://github.com/user-attachments/assets/b3944238-1a4f-4e53-ac44-a566b6ef7165" />    
+After clicking on export appliance you will see this:    
+<img width="626" height="673" alt="image" src="https://github.com/user-attachments/assets/46eff37f-31a9-4cf3-984d-ce07836f844b" />    
+Select the DC01 VM and move on to the next section. Have it look like this:    
+<img width="621" height="670" alt="image" src="https://github.com/user-attachments/assets/4c99056c-22e2-42d4-bd96-5b5a7f8d927d" />    
+Then move on to the Appliance Settings:    
+<img width="627" height="668" alt="image" src="https://github.com/user-attachments/assets/51c46fd4-75d0-4e46-afaa-7a1e64b30831" />    
+Then click on finish and wait for a while. 
+
+
+
+
+
+
 
 
 
