@@ -135,7 +135,10 @@ Select the DC01 VM and move on to the next section. Have it look like this:
 <img width="621" height="670" alt="image" src="https://github.com/user-attachments/assets/4c99056c-22e2-42d4-bd96-5b5a7f8d927d" />    
 Then move on to the Appliance Settings:    
 <img width="627" height="668" alt="image" src="https://github.com/user-attachments/assets/51c46fd4-75d0-4e46-afaa-7a1e64b30831" />    
-Then click on finish and wait for a while. 
+Then click on finish and wait for a while. Then repeat the process for the other VM.    
+
+# Proxmox File Transfer
+
 
 
 
