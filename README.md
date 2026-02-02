@@ -154,6 +154,14 @@ Then to verify type ls -lh /var/lib/vz/template/ova/ and see this output:
 
 
 # Importing into Proxmox
+After confirming its time to import the first ova. First cd into /var/lib/vz/template/ova/ then type tar -xvf DC01-WindowsServer.ova, after which it will create the vmdk and ovf files.    
+Then go to the web gui website for proxmox and find the button that says Create a VM and click on it.    
+<img width="752" height="554" alt="image" src="https://github.com/user-attachments/assets/2f213ef1-b94c-428b-8cd6-0c7e0124b5a4" />    
+You will see this, set the ID to 100 and name it DC01-WindowsServer and hit next, on the next screen select do not use any media, keep everything default on systems, then in disks delete the default disk, in CPU/Memory set cores to 2-4 and memory to 8142 MB. Then hit finish.    
+Result:    
+<img width="1424" height="175" alt="image" src="https://github.com/user-attachments/assets/79b85aed-2e86-432f-988e-10d1311cfbe1" />    
+Now its time to import by typing the qm importdisk 100 /var/lib/vz/template/ova/DC01-WindowsServer-disk001.vmdk local-lvm
+
 
 
 
