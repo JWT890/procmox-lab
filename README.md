@@ -147,7 +147,13 @@ Then to set proper permission type chmod 755 /var/lib/vz/template/ova/ then type
 Then get WinSCP up and login using the SCP protocol, Proxmox server host name, ie 10.0.0.0, port number 22, username and password set and should ook like this afterwards:    
 <img width="1464" height="433" alt="image" src="https://github.com/user-attachments/assets/46a7e49e-f443-442d-813d-871934f910a0" />    
 Click on the three dots on the right side to go further into the Proxmox host, then go to the folder of var, then lib, then template, then ova.    
+Then select the ova files from the host and drag it over to the right and then wait for the transfer to carry over. 
 
+Then to verify type ls -lh /var/lib/vz/template/ova/ and see this output:    
+<img width="579" height="67" alt="image" src="https://github.com/user-attachments/assets/55e869c2-2f6d-485b-ac1d-f85650c1a9ea" />    
+
+
+# Importing into Proxmox
 
 
 
