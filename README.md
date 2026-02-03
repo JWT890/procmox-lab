@@ -160,7 +160,14 @@ Then go to the web gui website for proxmox and find the button that says Create 
 You will see this, set the ID to 100 and name it DC01-WindowsServer and hit next, on the next screen select do not use any media, keep everything default on systems, then in disks delete the default disk, in CPU/Memory set cores to 2-4 and memory to 8142 MB. Then hit finish.    
 Result:    
 <img width="1424" height="175" alt="image" src="https://github.com/user-attachments/assets/79b85aed-2e86-432f-988e-10d1311cfbe1" />    
-Now its time to import by typing the qm importdisk 100 /var/lib/vz/template/ova/DC01-WindowsServer-disk001.vmdk local-lvm
+Now its time to import by typing the qm importdisk 100 /var/lib/vz/template/ova/DC01-WindowsServer-disk001.vmdk local-lvm.    
+After waiting for a while. Go to the 100 ID that was created previously and go to its hardware tab:    
+<img width="1889" height="655" alt="image" src="https://github.com/user-attachments/assets/c814b9a1-d46c-4439-b86f-38f2a4c411dc" />    
+Then click on the unused disk part, select SATA for the Bus/Device, click add. Then go to the options tab and double click on boot order.    
+<img width="1608" height="662" alt="image" src="https://github.com/user-attachments/assets/70575968-cc06-41b6-af05-cf815c64687e" />    
+After double clicking, enable sata0 and drag sata0 to the top and click OK.
+
+
 
 
 
