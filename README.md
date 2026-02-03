@@ -165,7 +165,9 @@ After waiting for a while. Go to the 100 ID that was created previously and go t
 <img width="1889" height="655" alt="image" src="https://github.com/user-attachments/assets/c814b9a1-d46c-4439-b86f-38f2a4c411dc" />    
 Then click on the unused disk part, select SATA for the Bus/Device, click add. Then go to the options tab and double click on boot order.    
 <img width="1608" height="662" alt="image" src="https://github.com/user-attachments/assets/70575968-cc06-41b6-af05-cf815c64687e" />    
-After double clicking, enable sata0 and drag sata0 to the top and click OK.
+After double clicking, enable sata0 and drag sata0 to the top and click OK.    
+Then go to the console tab and open it up but it will likely fail, so go to the options tab and look for KVM and double click on it and press the disable button to turn it off.    
+Then make sure to change the boot order by enabling sata0 and moving it to the first place. 
 
 
 
