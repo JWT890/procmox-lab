@@ -169,6 +169,19 @@ After double clicking, enable sata0 and drag sata0 to the top and click OK.
 Then go to the console tab and open it up but it will likely fail, so go to the options tab and look for KVM and double click on it and press the disable button to turn it off.    
 Then make sure to change the boot order by enabling sata0 and moving it to the first place. 
 
+While waiting for the VM to get set up, go download VirtIO Win by running the command wget -P /var/lib/vz/template/iso/ https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/virtio-win.iso in the proxmox shell.    
+Then go to the Hardware tab select on the CD/DVD Drive and edit it like so:    
+<img width="407" height="238" alt="image" src="https://github.com/user-attachments/assets/257e82af-ce04-4554-b64d-43602b36552a" />    
+After waiting a few minutes it should be up:    
+<img width="1598" height="635" alt="image" src="https://github.com/user-attachments/assets/471b5934-a9fc-4219-ba4f-3807c33a8d31" />    
+Then click on the console button to get it into a more manageable screen:    
+<img width="1017" height="762" alt="image" src="https://github.com/user-attachments/assets/103077f5-3f86-468e-9628-cece2ff95021" />    
+To press control, alt, delete, click on the last option and it will get you to the screen to login.    
+
+
+
+
+
 
 
 
