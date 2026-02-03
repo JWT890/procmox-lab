@@ -176,7 +176,10 @@ After waiting a few minutes it should be up:
 <img width="1598" height="635" alt="image" src="https://github.com/user-attachments/assets/471b5934-a9fc-4219-ba4f-3807c33a8d31" />    
 Then click on the console button to get it into a more manageable screen:    
 <img width="1017" height="762" alt="image" src="https://github.com/user-attachments/assets/103077f5-3f86-468e-9628-cece2ff95021" />    
-To press control, alt, delete, click on the last option and it will get you to the screen to login.    
+To press control, alt, delete, click on the last option and it will get you to the screen to login. After waiting for a few minutes the main screen will pop up after you get it up:    
+<img width="1021" height="831" alt="image" src="https://github.com/user-attachments/assets/91d40e98-d5d7-4281-a2ff-6da775d3a386" />    
+Now its time to do the network installation for the first VM, go to the file manager and find the C Drive with Virtio and install it, then reboot the VM.    
+
 
 
 
