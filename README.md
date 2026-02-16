@@ -211,6 +211,17 @@ Then type ipconfig /flushdns and then ping 8.8.8.8 and then Test-Connection goog
 <img width="937" height="343" alt="image" src="https://github.com/user-attachments/assets/63f8d629-1a51-4322-b552-a1acf42896d9" />    
 Then to verify Active Directory:    
 <img width="780" height="132" alt="image" src="https://github.com/user-attachments/assets/ebe7835e-2798-4645-aecb-ee47a02c2841" />    
+To verify the domain:    
+<img width="781" height="104" alt="image" src="https://github.com/user-attachments/assets/600f91b0-da63-4e1d-b9e7-f661a809f90f" />    
+To verify users:    
+<img width="863" height="206" alt="image" src="https://github.com/user-attachments/assets/33910697-0bfa-4a50-a135-4900603730de" />    
+Then to verify DNS connection:    
+<img width="558" height="293" alt="image" src="https://github.com/user-attachments/assets/3d88a0bd-9958-40d4-a15f-2100860f46f9" />    
+
+Now that the DC is set up, it is now time to set up the Client VM.    
+
+
+
 
 
 
