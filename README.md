@@ -183,6 +183,17 @@ After installation, you will see the Virtio info in the side, then click on it a
 <img width="799" height="473" alt="image" src="https://github.com/user-attachments/assets/62b32188-e00b-4e31-957f-8e26595b59d1" />    
 Install it, then go check services.msc to see if QEMU Guest Agent is running:    
 <img width="460" height="24" alt="image" src="https://github.com/user-attachments/assets/049c0a7e-bf0c-4bc1-b390-798e11ff62cb" />    
+Then its time to configure the network access:    
+Type Set-DnsClientServerAddress -InterfaceAlias "Ethernet" -ServerAddress 127.0.0.1 then Get-DnsClientServerAddress -InterfaceAlias "Ethernet"    
+Then type ipconfig /flushdns.    
+For the rest to work and connect, go to the Proxmox GUI or Shell and add a second network adapter.    
+Go to the Hardware Tab for the first VM and click on add:    
+<img width="1471" height="294" alt="image" src="https://github.com/user-attachments/assets/0fa2b92a-1186-4186-bab2-45299a37d925" />    
+Then click on network device to see this screen:    
+<img width="603" height="177" alt="image" src="https://github.com/user-attachments/assets/6e119479-0921-4386-8327-3733b8339474" />    
+Click on add and get back into the VM to verify.    
+
+
 
 
 
