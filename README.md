@@ -179,6 +179,13 @@ Then click on the console button to get it into a more manageable screen:
 To press control, alt, delete, click on the last option and it will get you to the screen to login. After waiting for a few minutes the main screen will pop up after you get it up:    
 <img width="1021" height="831" alt="image" src="https://github.com/user-attachments/assets/91d40e98-d5d7-4281-a2ff-6da775d3a386" />    
 Now its time to do the network installation for the first VM, go to the file manager and find the C Drive with Virtio and install it, then reboot the VM.    
+After installation, you will see the Virtio info in the side, then click on it and scroll down till you see the QEMU Guest agent info and click on it to install:    
+<img width="799" height="473" alt="image" src="https://github.com/user-attachments/assets/62b32188-e00b-4e31-957f-8e26595b59d1" />    
+Install it, then go check services.msc to see if QEMU Guest Agent is running:    
+<img width="460" height="24" alt="image" src="https://github.com/user-attachments/assets/049c0a7e-bf0c-4bc1-b390-798e11ff62cb" />    
+
+
+
 
 
 
