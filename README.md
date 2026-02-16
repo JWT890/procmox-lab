@@ -192,6 +192,31 @@ Go to the Hardware Tab for the first VM and click on add:
 Then click on network device to see this screen:    
 <img width="603" height="177" alt="image" src="https://github.com/user-attachments/assets/6e119479-0921-4386-8327-3733b8339474" />    
 Click on add and get back into the VM to verify.    
+Then type Get-NetAdapter to get the result, if Test-Connection google.com and 8.8.8.8 still don't work, then go to the Proxmox shell and do this:    
+Type ip addr show to see the results, then ip route to see this:    
+<img width="593" height="53" alt="image" src="https://github.com/user-attachments/assets/b7e8c659-995a-410b-b361-09de0b328af7" />    
+Then type ping 8.8.8.8 for this:    
+<img width="634" height="294" alt="image" src="https://github.com/user-attachments/assets/3eb79874-61d5-44c5-92bd-dc6b4ed33c0e" />    
+Then type cat /etc/network/interfaces and see this:    
+<img width="571" height="275" alt="image" src="https://github.com/user-attachments/assets/f1e3e182-80f9-4016-b4a3-0be55048154f" />    
+Then type nano /etc/network/interfaces and add this info:    
+<img width="774" height="187" alt="image" src="https://github.com/user-attachments/assets/b5fa99f6-545a-463d-8e7d-570dc7e976e0" />    
+Then save and exit and type systemctl restart networking and then type ip addr show vmbr1 to verify:    
+<img width="787" height="141" alt="image" src="https://github.com/user-attachments/assets/20a26f01-d6d9-4723-8cae-79574c72300c" />    
+Then qm set 100 --net1 virtio,bridge=vmbr1 and then qm reboot 100 to reboot the VM.    
+After waiting a while go back to PowerShell and type Get-NetAdapter to verify.    
+Then type New-NetIPAddress -InterfaceAlias "Ethernet 2" -IPAddress 10.0.2.10 -PrefixLength 24 -DefaultGateway 10.0.2.1.    
+Then type Set-DnsClientServerAddress -InterfaceAlias "Ethernet 2" -ServerAddresses 8.8.8.8, 8.8.4.4.    
+Then type ipconfig /flushdns and then ping 8.8.8.8 and then Test-Connection google.com to see if it worked:    
+<img width="937" height="343" alt="image" src="https://github.com/user-attachments/assets/63f8d629-1a51-4322-b552-a1acf42896d9" />    
+Then to verify Active Directory:    
+<img width="780" height="132" alt="image" src="https://github.com/user-attachments/assets/ebe7835e-2798-4645-aecb-ee47a02c2841" />    
+
+
+
+
+
+
 
 
 
