@@ -218,7 +218,8 @@ To verify users:
 Then to verify DNS connection:    
 <img width="558" height="293" alt="image" src="https://github.com/user-attachments/assets/3d88a0bd-9958-40d4-a15f-2100860f46f9" />    
 
-Now that the DC is set up, it is now time to set up the Client VM.    
+Now that the DC is set up, it is now time to set up the Client VM by following the above sequence.    
+
 
 
 
