@@ -219,6 +219,9 @@ Then to verify DNS connection:
 <img width="558" height="293" alt="image" src="https://github.com/user-attachments/assets/3d88a0bd-9958-40d4-a15f-2100860f46f9" />    
 
 Now that the DC is set up, it is now time to set up the Client VM by following the above sequence.    
+Start by importing using WinSCP, then go and check to see if its there by typing ls -lh /var/lib/vz/template/ova/.    
+Then for space reasons type: rm /var/lib/vz/template/ova/DC01-WindowsServer.mf /var/lib/vz/template/ova/DC01-WindowsServer.ova /var/lib/vz/template/ova/DC01-WindowsServer.ovf.    
+To free up some space. Then type tar -xvf Win11-Client01.ova Win11-Client01-disk001.vmdk. Then type qm importdisk 101 Win11-Client01-disk001.vmdk local-lvm and wait a while.    
 
 
 
