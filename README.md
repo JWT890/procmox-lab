@@ -173,6 +173,8 @@ While waiting for the VM to get set up, go download VirtIO Win by running the co
 Then go to the Hardware tab select on the CD/DVD Drive and edit it like so:    
 <img width="415" height="237" alt="image" src="https://github.com/user-attachments/assets/6aa7bdb8-18bf-4751-a173-b4cff3a9703f" />    
 *Using the Windows 11 iso as an example*    
+Then for the Virtio:    
+<img width="402" height="240" alt="image" src="https://github.com/user-attachments/assets/0c109589-b22d-4f37-9d39-e762bf4bbcb6" />    
 After waiting a few minutes it should be up:    
 <img width="1598" height="635" alt="image" src="https://github.com/user-attachments/assets/471b5934-a9fc-4219-ba4f-3807c33a8d31" />    
 Then click on the console button to get it into a more manageable screen:    
