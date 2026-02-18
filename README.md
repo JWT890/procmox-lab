@@ -171,7 +171,8 @@ Then make sure to change the boot order by enabling sata0 and moving it to the f
 
 While waiting for the VM to get set up, go download VirtIO Win by running the command wget -P /var/lib/vz/template/iso/ https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/virtio-win.iso in the proxmox shell.    
 Then go to the Hardware tab select on the CD/DVD Drive and edit it like so:    
-<img width="407" height="238" alt="image" src="https://github.com/user-attachments/assets/257e82af-ce04-4554-b64d-43602b36552a" />    
+<img width="415" height="237" alt="image" src="https://github.com/user-attachments/assets/6aa7bdb8-18bf-4751-a173-b4cff3a9703f" />    
+*Using the Windows 11 iso as an example*    
 After waiting a few minutes it should be up:    
 <img width="1598" height="635" alt="image" src="https://github.com/user-attachments/assets/471b5934-a9fc-4219-ba4f-3807c33a8d31" />    
 Then click on the console button to get it into a more manageable screen:    
