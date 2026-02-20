@@ -224,7 +224,18 @@ Then to verify DNS connection:
 Now that the DC is set up, it is now time to set up the Client VM by following the above sequence.    
 Start by importing using WinSCP, then go and check to see if its there by typing ls -lh /var/lib/vz/template/ova/.    
 Then for space reasons type: rm /var/lib/vz/template/ova/DC01-WindowsServer.mf /var/lib/vz/template/ova/DC01-WindowsServer.ova /var/lib/vz/template/ova/DC01-WindowsServer.ovf.    
-To free up some space. Then type tar -xvf Win11-Client01.ova Win11-Client01-disk001.vmdk. Then type qm importdisk 101 Win11-Client01-disk001.vmdk local-lvm and wait a while.    
+To free up some space. Then type tar -xvf Win11-Client01.ova Win11-Client01-disk001.vmdk. Then type qm importdisk 101 Win11-Client01-disk001.vmdk local-lvm and wait a while.  
+
+To properly install Windows 11 on Proxmox:    
+<img width="726" height="551" alt="image" src="https://github.com/user-attachments/assets/bea018cb-bd56-4a95-9c67-90394105e185" />    
+<img width="725" height="535" alt="image" src="https://github.com/user-attachments/assets/3c160a51-1a8f-4e57-b242-8f5226acb9c2" />    
+<img width="725" height="542" alt="image" src="https://github.com/user-attachments/assets/bef71a5c-040b-443a-b9a7-942d08dd3830" />    
+<img width="722" height="538" alt="image" src="https://github.com/user-attachments/assets/3f30dbee-e7d6-4f1b-ad13-cd48b3cb907a" />    
+
+
+
+
+
 
 
 
