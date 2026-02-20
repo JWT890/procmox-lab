@@ -236,7 +236,16 @@ After doing this setup correctly you will see this screen:
 <img width="990" height="619" alt="image" src="https://github.com/user-attachments/assets/1e16443e-d749-46fd-a59f-9fe36cb18218" />    
 Press select until you get here:    
 <img width="565" height="447" alt="image" src="https://github.com/user-attachments/assets/3200a758-b7b0-40a7-aae8-b54d539704a2" />    
-Check I agree and hit next. Then click on I don't have a product key. Then click on Windows 11 Pro. 
+Check I agree and hit next. Then click on I don't have a product key. Then click on Windows 11 Pro.    
+<img width="592" height="463" alt="image" src="https://github.com/user-attachments/assets/7c5ad512-8c7e-4e4f-997a-8baca1a7ee62" />    
+Then click on I accept and hit next. After a couple moments you will reach this screen:    
+<img width="577" height="470" alt="image" src="https://github.com/user-attachments/assets/7451e8e4-2326-420f-8347-49439053fec1" />    
+Click on load driver, then click on browse to see this screen:    
+<img width="594" height="476" alt="image" src="https://github.com/user-attachments/assets/cb4c4b13-ef77-477e-be2c-4f2e3eb044a7" />    
+Then click on the first option, them amdb, then select the win11 option which should show the required option. 
+
+
+
 
 
 
