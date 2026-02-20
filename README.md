@@ -231,6 +231,15 @@ To properly install Windows 11 on Proxmox:
 <img width="725" height="535" alt="image" src="https://github.com/user-attachments/assets/3c160a51-1a8f-4e57-b242-8f5226acb9c2" />    
 <img width="725" height="542" alt="image" src="https://github.com/user-attachments/assets/bef71a5c-040b-443a-b9a7-942d08dd3830" />    
 <img width="722" height="538" alt="image" src="https://github.com/user-attachments/assets/3f30dbee-e7d6-4f1b-ad13-cd48b3cb907a" />    
+<img width="782" height="346" alt="image" src="https://github.com/user-attachments/assets/25aa6c5b-d01b-4ae6-8eb3-6404dd1a792e" />    
+After doing this setup correctly you will see this screen:    
+<img width="990" height="619" alt="image" src="https://github.com/user-attachments/assets/1e16443e-d749-46fd-a59f-9fe36cb18218" />    
+Press select until you get here:    
+<img width="565" height="447" alt="image" src="https://github.com/user-attachments/assets/3200a758-b7b0-40a7-aae8-b54d539704a2" />    
+Check I agree and hit next. Then click on I don't have a product key. Then click on Windows 11 Pro. 
+
+
+
 
 
 
