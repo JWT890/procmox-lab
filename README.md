@@ -243,6 +243,18 @@ Then click on I accept and hit next. After a couple moments you will reach this 
 Click on load driver, then click on browse to see this screen:    
 <img width="594" height="476" alt="image" src="https://github.com/user-attachments/assets/cb4c4b13-ef77-477e-be2c-4f2e3eb044a7" />    
 Then click on the first option, them amdb, then select the win11 option which should show the required option. 
+Make sure to have the Virtio option checked before hand:    
+<img width="635" height="263" alt="image" src="https://github.com/user-attachments/assets/cbe3f44a-dabc-461f-8e42-845981a383b9" />    
+Then go back and it should pop up:    
+<img width="563" height="447" alt="image" src="https://github.com/user-attachments/assets/0511277c-43b2-4b1f-b176-df9ca73365ce" />    
+Then click on install and the disk should pop up:    
+<img width="688" height="502" alt="image" src="https://github.com/user-attachments/assets/935222f6-55d1-41d4-a7be-5edc87ed6ff3" />    
+Then click on next and then install.    
+It will go to the installation screen and then wait a while.    
+
+
+
+
 
 
 
