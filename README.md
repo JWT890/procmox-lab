@@ -252,6 +252,12 @@ Then click on install and the disk should pop up:
 Then click on next and then install.    
 It will go to the installation screen and then wait a while.    
 *Since Windows 11 iso is not wanting to work, will switch over to Windows 10 iso*
+Windows 10 Setup:    
+<img width="1160" height="605" alt="image" src="https://github.com/user-attachments/assets/5d6ac8eb-0b99-4ca1-9fe0-5fe2874c3a69" />    
+<img width="1358" height="614" alt="image" src="https://github.com/user-attachments/assets/3f2d35ad-a179-4e23-8672-076d4650d457" />    
+
+
+
 
 
 
