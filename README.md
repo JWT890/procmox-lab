@@ -16,8 +16,8 @@ Select the flash drive option and you see this screen pop up:
 Click on flash and wait a couple minutes.  
 
 # Procmox VM Setup
-In VirtualBox create a VM named Proxmox with it set to Linux and Debian 64 bit, 8 GB of Memory or 8142, then 4 processors assinged. 100 GB of space or more for the VDI.  
-After creation, go the settings -> then to system and uncheck floppy and have it go from optical to hard disk, enable Enable I/O APIC and keep paravirtualization to default.  
+In VirtualBox create a VM named Proxmox with it set to Linux and Debian 64 bit, 16 GB of Memory or 16000 MB, then 4 processors assinged. 200 GB of space or more for the VDI.  
+After creation, go the settings -> then to system and uncheck floppy and have it go from optical to hard disk, enable Enable I/O APIC, Nested Paging, Nested VT/AMD and keep paravirtualization to KVM.  
 Have the adapter 1 as a bridged adapter, then for storage select the proxmox iso and put it there. After getting it set up start the vm and you will greeted by this screen:  
 <img width="1016" height="806" alt="image" src="https://github.com/user-attachments/assets/878ce2a1-c263-4989-9077-e5ddb8194814" />  
 After clicking on the first option, after a few minutes you will see the EULA screen and click I agree and then you will see this screen:  
