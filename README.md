@@ -124,8 +124,8 @@ Click edit on the DNS server assignment, change from automatic to manual, turn I
 To ensure that the VMs can talk to each other, make sure to have both VM's Adapter 1's set to the first adapter and run this command in the DC01:    
 <img width="1271" height="517" alt="image" src="https://github.com/user-attachments/assets/c31d81f5-c45a-4ae2-aaea-5e2b738a5734" />    
 And in the client run this command so that the DC01 VM can ping the Client VM:    
-<img width="1259" height="428" alt="image" src="https://github.com/user-attachments/assets/26096d61-2d44-4f22-b86a-ccfc10a66b16" />    
-
+<img width="1419" height="446" alt="image" src="https://github.com/user-attachments/assets/14b86af8-eaac-45c4-aa96-4b98f8a3af2c" />    
+ 
 # VM Exporting
 To export a VM, click on the File tab and click on export appliance:    
 <img width="502" height="89" alt="image" src="https://github.com/user-attachments/assets/b3944238-1a4f-4e53-ac44-a566b6ef7165" />    
