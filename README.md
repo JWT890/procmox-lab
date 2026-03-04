@@ -137,6 +137,10 @@ To Test if client can nslookup the lab domain:
 Then type the command: Add-Computer -DomainName "lab.local" -Credential (Get-Credential) -Restart and then enter the admin credentials when prompted.   
 After restarting, you will see other user at login screen:    
 <img width="1855" height="916" alt="image" src="https://github.com/user-attachments/assets/5bdfd9e2-10cf-4759-a22f-e6544d2e301e" />
+Choose one of the user accounts that was created in the DC, right click their profile and reset their password to use it to login into the client.    
+In the clinet type bjohnson@lab.local and then the password that was created for the user. Then wait a couple seconds and then go the command prompt:    
+<img width="1141" height="640" alt="image" src="https://github.com/user-attachments/assets/207f60b8-9fbf-460f-a355-3a5b60ea1029" />    
+<img width="1472" height="640" alt="image" src="https://github.com/user-attachments/assets/fd7d90d3-72fa-45d3-bf44-7ba93037047f" />    
 
 
  
