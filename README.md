@@ -130,6 +130,15 @@ From Client to DC:
 <img width="512" height="204" alt="image" src="https://github.com/user-attachments/assets/d2297ae0-409a-4d4c-99e0-2a2253e4dc7f" />    
 From DC to Client:    
 <img width="532" height="191" alt="image" src="https://github.com/user-attachments/assets/4d08d5e3-d82b-4c7c-8e5d-4c9f5d265788" />    
+
+Then before exporting the VM, lets join it to the domain:    
+To Test if client can nslookup the lab domain:    
+<img width="469" height="292" alt="image" src="https://github.com/user-attachments/assets/2ce96008-926e-44ff-bdab-ca1817260b40" />    
+Then type the command: Add-Computer -DomainName "lab.local" -Credential (Get-Credential) -Restart and then enter the admin credentials when prompted.   
+After restarting, you will see other user at login screen:    
+<img width="1855" height="916" alt="image" src="https://github.com/user-attachments/assets/5bdfd9e2-10cf-4759-a22f-e6544d2e301e" />
+
+
  
 # VM Exporting
 To export a VM, click on the File tab and click on export appliance:    
