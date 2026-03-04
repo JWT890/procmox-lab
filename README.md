@@ -141,7 +141,14 @@ Choose one of the user accounts that was created in the DC, right click their pr
 In the clinet type bjohnson@lab.local and then the password that was created for the user. Then wait a couple seconds and then go the command prompt:    
 <img width="1141" height="640" alt="image" src="https://github.com/user-attachments/assets/207f60b8-9fbf-460f-a355-3a5b60ea1029" />    
 <img width="1472" height="640" alt="image" src="https://github.com/user-attachments/assets/fd7d90d3-72fa-45d3-bf44-7ba93037047f" />    
-
+For a couple tests on both sides ->
+DC:    
+<img width="906" height="329" alt="image" src="https://github.com/user-attachments/assets/7508959d-071e-4717-a3cd-a69308b2d0cb" />    
+<img width="1335" height="214" alt="image" src="https://github.com/user-attachments/assets/20792003-d4de-4aea-a2e5-9da1387b064a" />    
+Client:    
+<img width="901" height="266" alt="image" src="https://github.com/user-attachments/assets/657ee962-cac5-4c02-a57f-fca81ec82130" />    
+<img width="836" height="506" alt="image" src="https://github.com/user-attachments/assets/f74e9e91-4e8c-4600-8dab-79010e4960b8" />    
+<img width="939" height="78" alt="image" src="https://github.com/user-attachments/assets/f0d9ad70-fb3c-4410-9ae2-90fdeb0538c4" />    
 
  
 # VM Exporting
