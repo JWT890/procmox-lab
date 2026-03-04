@@ -115,8 +115,8 @@ Windows 11 iso download: https://www.microsoft.com/en-us/software-download/windo
 Choose the Windows 11 Pro edition, US inputs, and choose the disk that was created, and then wait a while for the Windows 11 VM to get created.    
 After a long while, make sure to set it up as bare bones as you can since its being used with Proxmox and connecting with the other VM.    
 Then get rid of the Windows 11 iso from the optical drive and replace it with the Vbox Guest Additions, power back on the VM, go to the C Drive and look for the VboxWindowsAdditions-amd64.exe and run it and then select the reboot option and restart to get back to the normal windows screen.    
-Next up on the Windows 11 VM is to go to settings and go to network and internet like so to the Ethernet l section:    
-<img width="1037" height="777" alt="image" src="https://github.com/user-attachments/assets/48c95ba1-2370-4d86-9c1f-609c8e4638cf" />    
+Next up on the Windows 11 VM is to go to settings and go to network and internet like so to the Ethernet 2 section:    
+<img width="1036" height="805" alt="image" src="https://github.com/user-attachments/assets/7ceb9f45-18ad-4ffb-9003-922f23e79c9b" />    
 Then click on Ethernet and scroll to the details on the first connection, till you see this section:    
 <img width="858" height="307" alt="image" src="https://github.com/user-attachments/assets/d0c9bc38-d336-4d3e-b284-36a489b4b4e3" />    
 Click edit on the DNS server assignment, change from automatic to manual, turn IPv4 on, set preferred DNS to 192.168.56.10 and leave alternate DNS as blank and hit Save.    
@@ -125,6 +125,11 @@ To ensure that the VMs can talk to each other, make sure to have both VM's Adapt
 <img width="1271" height="517" alt="image" src="https://github.com/user-attachments/assets/c31d81f5-c45a-4ae2-aaea-5e2b738a5734" />    
 And in the client run this command so that the DC01 VM can ping the Client VM:    
 <img width="1419" height="446" alt="image" src="https://github.com/user-attachments/assets/14b86af8-eaac-45c4-aa96-4b98f8a3af2c" />    
+To Test to see for communication    
+From Client to DC:    
+<img width="512" height="204" alt="image" src="https://github.com/user-attachments/assets/d2297ae0-409a-4d4c-99e0-2a2253e4dc7f" />    
+From DC to Client:    
+<img width="532" height="191" alt="image" src="https://github.com/user-attachments/assets/4d08d5e3-d82b-4c7c-8e5d-4c9f5d265788" />    
  
 # VM Exporting
 To export a VM, click on the File tab and click on export appliance:    
