@@ -150,7 +150,16 @@ Client:
 <img width="836" height="506" alt="image" src="https://github.com/user-attachments/assets/f74e9e91-4e8c-4600-8dab-79010e4960b8" />    
 <img width="939" height="78" alt="image" src="https://github.com/user-attachments/assets/f0d9ad70-fb3c-4410-9ae2-90fdeb0538c4" />    
 
- 
+Then go and create shared Folders in the DC like so:    
+<img width="866" height="699" alt="image" src="https://github.com/user-attachments/assets/03f0d3f0-2e8f-4dd6-a519-efa142073aa3" />    
+Then create company share folders:    
+<img width="1085" height="462" alt="image" src="https://github.com/user-attachments/assets/e581b957-e991-4014-923a-0f33ad8a88f1" />    
+*Mistyped for IT*    
+Then set permissions:    
+<img width="1027" height="288" alt="image" src="https://github.com/user-attachments/assets/5f95a104-7808-4989-8ea6-9b6805beb78c" />    
+
+
+
 # VM Exporting
 To export a VM, click on the File tab and click on export appliance:    
 <img width="502" height="89" alt="image" src="https://github.com/user-attachments/assets/b3944238-1a4f-4e53-ac44-a566b6ef7165" />    
