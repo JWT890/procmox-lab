@@ -104,10 +104,10 @@ Then to verify the groups type this command with the IT-Admins group as on examp
 <img width="838" height="110" alt="image" src="https://github.com/user-attachments/assets/741d594e-d303-456b-83cb-c7539a6c4dbf" />    
 
 # Windows 11 Client VM
-Base Memory: 4096 MB    
+Base Memory: 8142 MB    
 Windows 11 iso    
 Processors: 2-4 CPUs
-Disk Size: 64 GB    
+Disk Size: 80 GB    
 Video Memory: 128 MB    
 Adapter 1: Host Only    
 Adapter 2: NAT    
