@@ -174,7 +174,9 @@ Next for the home folders:
 <img width="1023" height="386" alt="image" src="https://github.com/user-attachments/assets/ca5b1e42-a159-4403-b1a8-94906dd8079c" />    
 <img width="955" height="35" alt="image" src="https://github.com/user-attachments/assets/d2cff0f7-51d0-41e4-bdfd-24f5719c9c9d" />    
 <img width="1039" height="70" alt="image" src="https://github.com/user-attachments/assets/dc5fe1fc-a261-4ee4-ad4e-cca75a5ab44d" />    
-<img width="715" height="235" alt="image" src="https://github.com/user-attachments/assets/c4d7ce42-ee18-41bf-aeef-27aba8489a1a" />    
+<img width="715" height="235" alt="image" src="https://github.com/user-attachments/assets/c4d7ce42-ee18-41bf-aeef-27aba8489a1a" />   
+Then in the client user type net use Z: \\dc01.lab.local\Company and run it to see this:    
+<img width="1074" height="372" alt="image" src="https://github.com/user-attachments/assets/f8d19613-45b7-43e0-873b-0eee37ab7470" />    
 
 # VM Exporting
 To export a VM, click on the File tab and click on export appliance:    
