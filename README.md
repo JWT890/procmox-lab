@@ -157,8 +157,24 @@ Then create company share folders:
 *Mistyped for IT*    
 Then set permissions:    
 <img width="1027" height="288" alt="image" src="https://github.com/user-attachments/assets/5f95a104-7808-4989-8ea6-9b6805beb78c" />    
-
-
+Then in the client through one of the users:    
+<img width="1495" height="798" alt="image" src="https://github.com/user-attachments/assets/8e9443d7-987f-4596-b78c-e3e7746fbfac" />    
+Then in the DC, go to Group Policy Management and create a new GPO by expanding the lab.local domain.    
+Then right click on Group Policy Objects and select new like so:    
+<img width="761" height="517" alt="image" src="https://github.com/user-attachments/assets/396651b0-16d5-41d6-9bca-f3f9015507a0" />    
+Then click on edit for the Desktop Wallpaper Policy like so:    
+<img width="805" height="585" alt="image" src="https://github.com/user-attachments/assets/cb7a9f7e-211e-4d0e-85b5-d1d45defeceb" />    
+<img width="791" height="582" alt="image" src="https://github.com/user-attachments/assets/bf443459-539b-4442-9dd9-c688351371e4" />    
+Double click on Desktop Wallpaper and select Enabled and enter a wallpaper path when prompted.    
+Then go back to the main Group Policy and right click on Workstations OU and select Link an Existing GPO and select the Desktop policy and hit ok.    
+Then go the Client and in the command prompt type gpupdate /force
+Then sign out and back in to see the result.    
+Next for the home folders:    
+<img width="879" height="166" alt="image" src="https://github.com/user-attachments/assets/4f563d5e-cf5d-486e-ad1a-b5a20dd6b6ca" />    
+<img width="1023" height="386" alt="image" src="https://github.com/user-attachments/assets/ca5b1e42-a159-4403-b1a8-94906dd8079c" />    
+<img width="955" height="35" alt="image" src="https://github.com/user-attachments/assets/d2cff0f7-51d0-41e4-bdfd-24f5719c9c9d" />    
+<img width="1039" height="70" alt="image" src="https://github.com/user-attachments/assets/dc5fe1fc-a261-4ee4-ad4e-cca75a5ab44d" />    
+<img width="715" height="235" alt="image" src="https://github.com/user-attachments/assets/c4d7ce42-ee18-41bf-aeef-27aba8489a1a" />    
 
 # VM Exporting
 To export a VM, click on the File tab and click on export appliance:    
