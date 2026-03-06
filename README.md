@@ -233,6 +233,9 @@ Then click on the console button to get it into a more manageable screen:
 <img width="1017" height="762" alt="image" src="https://github.com/user-attachments/assets/103077f5-3f86-468e-9628-cece2ff95021" />    
 To press control, alt, delete, click on the last option and it will get you to the screen to login. After waiting for a few minutes the main screen will pop up after you get it up:    
 <img width="1021" height="831" alt="image" src="https://github.com/user-attachments/assets/91d40e98-d5d7-4281-a2ff-6da775d3a386" />    
+After waiting a couple minutes you see the Server Manager pop up with a couple spots saying red. Click on the flag icon and select the option of promoting to the Domain Controler:    
+<img width="1029" height="782" alt="image" src="https://github.com/user-attachments/assets/dd185248-7f24-4f81-b8b6-02eae1289787" />    
+
 Now its time to do the network installation for the first VM, go to the file manager and find the C Drive with Virtio and install it, then reboot the VM.    
 After installation, you will see the Virtio info in the side, then click on it and scroll down till you see the QEMU Guest agent info and click on it to install:    
 <img width="799" height="473" alt="image" src="https://github.com/user-attachments/assets/62b32188-e00b-4e31-957f-8e26595b59d1" />    
