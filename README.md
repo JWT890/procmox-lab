@@ -235,6 +235,16 @@ To press control, alt, delete, click on the last option and it will get you to t
 <img width="1021" height="831" alt="image" src="https://github.com/user-attachments/assets/91d40e98-d5d7-4281-a2ff-6da775d3a386" />    
 After waiting a couple minutes you see the Server Manager pop up with a couple spots saying red. Click on the flag icon and select the option of promoting to the Domain Controler:    
 <img width="1029" height="782" alt="image" src="https://github.com/user-attachments/assets/dd185248-7f24-4f81-b8b6-02eae1289787" />    
+After either a couple minutes or restarting it will show this:    
+<img width="837" height="619" alt="image" src="https://github.com/user-attachments/assets/cde0c38c-bd7d-4750-b1be-a5a6c1050f16" />    
+The next step is in Powershell to run slmgr /rearm which will change it to this:    
+<img width="741" height="66" alt="image" src="https://github.com/user-attachments/assets/60edbc88-c8bd-4c7e-bd98-2968303ed829" />    
+Then run: Get-WinEvent -LogName "Directory Service" -MaxEvents 20 | Select-Object TimeCreated, Id, LevelDisplayName, Message | Format-Table -Wrap to get the last 20 events:    
+<img width="785" height="356" alt="image" src="https://github.com/user-attachments/assets/748d02a2-8ccf-4899-9dff-77d3fdf5117d" />    
+Then in Command Prompt run set devmgr_show_nonpresentdevices=1 and then type devmgmt.msc -> in Device Manager click on View -> then show hidden devices:    
+<img width="251" height="196" alt="image" src="https://github.com/user-attachments/assets/df18a2ef-a2f3-4718-88e7-9cff4645414f" />    
+Then delete the first Desktop Adapter and possibly #2, then in PowerShell run Restart-Computer -Force and then you will see this:    
+<img width="1009" height="729" alt="image" src="https://github.com/user-attachments/assets/1b5d8681-75f3-4fce-85bc-6c64ae208f0d" />    
 
 Now its time to do the network installation for the first VM, go to the file manager and find the C Drive with Virtio and install it, then reboot the VM.    
 After installation, you will see the Virtio info in the side, then click on it and scroll down till you see the QEMU Guest agent info and click on it to install:    
