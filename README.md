@@ -250,7 +250,15 @@ Now its time to do the network installation for the first VM, go to the file man
 After installation, you will see the Virtio info in the side, then click on it and scroll down till you see the QEMU Guest agent info and click on it to install:    
 <img width="799" height="473" alt="image" src="https://github.com/user-attachments/assets/62b32188-e00b-4e31-957f-8e26595b59d1" />    
 Install it, then go check services.msc to see if QEMU Guest Agent is running:    
-<img width="460" height="24" alt="image" src="https://github.com/user-attachments/assets/049c0a7e-bf0c-4bc1-b390-798e11ff62cb" />    
+<img width="460" height="24" alt="image" src="https://github.com/user-attachments/assets/049c0a7e-bf0c-4bc1-b390-798e11ff62cb" />  
+Or go to Device Manager, expand on Other Devices and right click on Ethernet Controller    
+<img width="311" height="96" alt="image" src="https://github.com/user-attachments/assets/2d0c5d3f-a2c8-4fd4-b5d5-b6a7fe142d81" />    
+Then select the update driver option -> browse my computer for drivers -> select the Virtio CD drive:    
+<img width="326" height="333" alt="image" src="https://github.com/user-attachments/assets/1cfe1142-1251-473f-8071-7eca610b2f4a" />    
+Expand upon it and scroll down till you see the NetKVM option and select the 2k22 option -> amdb64 folder -> click ok and then next. It should get installed from there.    
+After a couple seconds the Red Hat option should pop up:    
+<img width="302" height="226" alt="image" src="https://github.com/user-attachments/assets/727d4a81-fd22-4655-abcc-53329e89d6be" />    
+
 Then its time to configure the network access:    
 Type Set-DnsClientServerAddress -InterfaceAlias "Ethernet" -ServerAddress 127.0.0.1 then Get-DnsClientServerAddress -InterfaceAlias "Ethernet"    
 Then type ipconfig /flushdns.    
