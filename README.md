@@ -257,7 +257,9 @@ Then select the update driver option -> browse my computer for drivers -> select
 <img width="326" height="333" alt="image" src="https://github.com/user-attachments/assets/1cfe1142-1251-473f-8071-7eca610b2f4a" />    
 Expand upon it and scroll down till you see the NetKVM option and select the 2k22 option -> amdb64 folder -> click ok and then next. It should get installed from there.    
 After a couple seconds the Red Hat option should pop up:    
-<img width="302" height="226" alt="image" src="https://github.com/user-attachments/assets/727d4a81-fd22-4655-abcc-53329e89d6be" />    
+<img width="302" height="226" alt="image" src="https://github.com/user-attachments/assets/727d4a81-fd22-4655-abcc-53329e89d6be" />   
+Then go to PowerShell to confirm that the port 389 is listening by typing up netstat -ano | findstr :389 like so:    
+<img width="986" height="515" alt="image" src="https://github.com/user-attachments/assets/6dee57bb-aa6a-4225-bfc0-10221fce7b99" />    
 
 Then its time to configure the network access:    
 Type Set-DnsClientServerAddress -InterfaceAlias "Ethernet" -ServerAddress 127.0.0.1 then Get-DnsClientServerAddress -InterfaceAlias "Ethernet"    
