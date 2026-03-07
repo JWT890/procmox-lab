@@ -264,7 +264,10 @@ Then go to PowerShell to confirm that the port 389 is listening by typing up net
 Then its time to configure the network access:    
 Type Set-DnsClientServerAddress -InterfaceAlias "Ethernet" -ServerAddress 127.0.0.1 then Get-DnsClientServerAddress -InterfaceAlias "Ethernet"    
 Then type ipconfig /flushdns.    
-For the rest to work and connect, go to the Proxmox GUI or Shell and add a second network adapter.    
+For the rest to work and connect, go to the Proxmox GUI or Shell and add a second network adapter and get rid of net0 which will get rid of one of the Ethernets that spawn.    
+Then go to the DNS manager and or delete any residual VirtualBox addresses like so:    
+<img width="555" height="357" alt="image" src="https://github.com/user-attachments/assets/6dc70d5f-3b51-4e8d-87c6-e62810809b4e" />    
+Delete the 10.0.0.x addresses and the Win11-Client VM address since it has been moved to Proxmox.    
 Go to the Hardware Tab for the first VM and click on add:    
 <img width="1471" height="294" alt="image" src="https://github.com/user-attachments/assets/0fa2b92a-1186-4186-bab2-45299a37d925" />    
 Then click on network device to see this screen:    
