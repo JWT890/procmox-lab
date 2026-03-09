@@ -124,7 +124,8 @@ Then followup by typing manage-bde -status C: to get the following:
 Then type gpedit.msc to open up Local Group Policy Editor and look through computer configuration -> administrative templates -? windows components -> BitLocker Drive Encryption -> operating system drives
 <img width="1643" height="758" alt="image" src="https://github.com/user-attachments/assets/5f31bda5-7795-467b-8da0-0f90a55f2c30" />    
 Then double click on Require additional authentication at startup and set to enabled and the bitlocker option unchecked:    
-<img width="683" height="629" alt="image" src="https://github.com/user-attachments/assets/adfed666-51e3-422a-a979-c7486bba99a9" />    
+<img width="683" height="629" alt="image" src="https://github.com/user-attachments/assets/adfed666-51e3-422a-a979-c7486bba99a9" />  
+Then click on apply then ok.    
 Next up on the Windows 11 VM is to go to settings and go to network and internet like so to the Ethernet 2 section:    
 <img width="1036" height="805" alt="image" src="https://github.com/user-attachments/assets/7ceb9f45-18ad-4ffb-9003-922f23e79c9b" />    
 Then click on Ethernet and scroll to the details on the first connection, till you see this section:    
