@@ -115,6 +115,10 @@ Windows 11 iso download: https://www.microsoft.com/en-us/software-download/windo
 Choose the Windows 11 Pro edition, US inputs, and choose the disk that was created, and then wait a while for the Windows 11 VM to get created.    
 After a long while, make sure to set it up as bare bones as you can since its being used with Proxmox and connecting with the other VM.    
 Then get rid of the Windows 11 iso from the optical drive and replace it with the Vbox Guest Additions, power back on the VM, go to the C Drive and look for the VboxWindowsAdditions-amd64.exe and run it and then select the reboot option and restart to get back to the normal windows screen.    
+Then, for later, go to the PowerShell command prompt as admin and type Disable BitLocker -MountPoint "C:" like below:    
+<img width="926" height="173" alt="image" src="https://github.com/user-attachments/assets/50140932-bc39-4de3-bb6e-5b0d8f22b98d" />    
+Then wait a few minutes and type Get-BitLockerVolume to see if the dencyption process has cmopleted:    
+<img width="944" height="175" alt="image" src="https://github.com/user-attachments/assets/eea8ff9c-2894-4a72-9716-2d3ed96a8879" />    
 Next up on the Windows 11 VM is to go to settings and go to network and internet like so to the Ethernet 2 section:    
 <img width="1036" height="805" alt="image" src="https://github.com/user-attachments/assets/7ceb9f45-18ad-4ffb-9003-922f23e79c9b" />    
 Then click on Ethernet and scroll to the details on the first connection, till you see this section:    
