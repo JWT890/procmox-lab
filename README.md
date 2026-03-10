@@ -334,7 +334,7 @@ Then enter the password and wait a few minutes for the Windows normal screen to 
 Then click on File Explorer and go to the drive that says virtio-win like so and navigate to the guest agent folder:    
 <img width="794" height="602" alt="image" src="https://github.com/user-attachments/assets/fd38ba07-868e-47b1-a6cc-7e0e05bb390e" />    
 Then click on the second option to begin the installation. 
-
+*Make sure to have QEMU checked to enable in options to proceed, and or you can skip it for now and test network connectivity with the DC*
 
 
 
