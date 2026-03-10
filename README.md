@@ -319,6 +319,16 @@ To properly install Windows 11 on Proxmox:
 <img width="1601" height="499" alt="image" src="https://github.com/user-attachments/assets/a93e0c4f-1212-422b-9bcd-8dcf7a75c0bf" />    
 Then upload the Windows 11 iso and put it ide2 in CD/DVD:    
 <img width="1595" height="634" alt="image" src="https://github.com/user-attachments/assets/a6902ba8-be8a-46fd-99d6-7a4c4bfb1bbb" />    
+The sata0 should be the imported vmdk and the ide2 should be the Windows 11 iso needed in a few minutes.    
+Then click on start and wait for the Windows 11 installation wizard to pop up, click next till you see the install or repair my PC options.    
+Make sure to click on the Repair my PC option and then wait a couple minutes.    
+After waiting a couple minutes, you will see a screen with keyboard options and select the US one, then you will see this screen:       
+<img width="754" height="459" alt="image" src="https://github.com/user-attachments/assets/c7d01b47-a44a-460b-bded-2a35f8e33dd4" />    
+Click on troubleshoot, then click on the command prompt and you will be taken to command prompt.    
+In command prompt, type diskpart to access diskpart, then list disk to see the disks, then select 0, then list volume, then list disk:    
+<img width="1008" height="631" alt="image" src="https://github.com/user-attachments/assets/aa339b60-527f-4fbe-8c67-4c233be58556" />    
+
+
 
 
 
