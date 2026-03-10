@@ -327,6 +327,13 @@ After waiting a couple minutes, you will see a screen with keyboard options and 
 Click on troubleshoot, then click on the command prompt and you will be taken to command prompt.    
 In command prompt, type diskpart to access diskpart, then list disk to see the disks, then select 0, then list volume, then list disk:    
 <img width="1008" height="631" alt="image" src="https://github.com/user-attachments/assets/aa339b60-527f-4fbe-8c67-4c233be58556" />    
+The alternative is to just reimport the vmdk and get turn the console back on. After waiting for a few minutes on the Proxmox screen you should see the Windows logon:    
+<img width="1008" height="628" alt="image" src="https://github.com/user-attachments/assets/0fbb58dd-f970-4feb-80bf-47490233b2f5" />    
+Then enter the password and wait a few minutes for the Windows normal screen to pop up.    
+<img width="1292" height="862" alt="image" src="https://github.com/user-attachments/assets/6681916f-0245-417e-b565-092939ef536a" />    
+
+
+
 
 
 
