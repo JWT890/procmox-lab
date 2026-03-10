@@ -316,34 +316,12 @@ Then for space reasons type: rm /var/lib/vz/template/ova/DC01-WindowsServer.mf /
 To free up some space. Then type tar -xvf Win11-Client01.ova Win11-Client01-disk001.vmdk. Then type qm importdisk 101 Win11-Client01-disk001.vmdk local-lvm and wait a while.  
 
 To properly install Windows 11 on Proxmox:    
-<img width="726" height="551" alt="image" src="https://github.com/user-attachments/assets/bea018cb-bd56-4a95-9c67-90394105e185" />    
-<img width="725" height="535" alt="image" src="https://github.com/user-attachments/assets/3c160a51-1a8f-4e57-b242-8f5226acb9c2" />    
-<img width="725" height="542" alt="image" src="https://github.com/user-attachments/assets/bef71a5c-040b-443a-b9a7-942d08dd3830" />    
-<img width="722" height="538" alt="image" src="https://github.com/user-attachments/assets/3f30dbee-e7d6-4f1b-ad13-cd48b3cb907a" />    
-<img width="782" height="346" alt="image" src="https://github.com/user-attachments/assets/25aa6c5b-d01b-4ae6-8eb3-6404dd1a792e" />    
-After doing this setup correctly you will see this screen:    
-<img width="990" height="619" alt="image" src="https://github.com/user-attachments/assets/1e16443e-d749-46fd-a59f-9fe36cb18218" />    
-Press select until you get here:    
-<img width="565" height="447" alt="image" src="https://github.com/user-attachments/assets/3200a758-b7b0-40a7-aae8-b54d539704a2" />    
-Check I agree and hit next. Then click on I don't have a product key. Then click on Windows 11 Pro.    
-<img width="592" height="463" alt="image" src="https://github.com/user-attachments/assets/7c5ad512-8c7e-4e4f-997a-8baca1a7ee62" />    
-Then click on I accept and hit next. After a couple moments you will reach this screen:    
-<img width="577" height="470" alt="image" src="https://github.com/user-attachments/assets/7451e8e4-2326-420f-8347-49439053fec1" />    
-Click on load driver, then click on browse to see this screen:    
-<img width="594" height="476" alt="image" src="https://github.com/user-attachments/assets/cb4c4b13-ef77-477e-be2c-4f2e3eb044a7" />    
-Then click on the first option, them amdb, then select the win11 option which should show the required option. 
-Make sure to have the Virtio option checked before hand:    
-<img width="635" height="263" alt="image" src="https://github.com/user-attachments/assets/cbe3f44a-dabc-461f-8e42-845981a383b9" />    
-Then go back and it should pop up:    
-<img width="563" height="447" alt="image" src="https://github.com/user-attachments/assets/0511277c-43b2-4b1f-b176-df9ca73365ce" />    
-Then click on install and the disk should pop up:    
-<img width="688" height="502" alt="image" src="https://github.com/user-attachments/assets/935222f6-55d1-41d4-a7be-5edc87ed6ff3" />    
-Then click on next and then install.    
-It will go to the installation screen and then wait a while.    
-*Since Windows 11 iso is not wanting to work, will switch over to Windows 10 iso*
-Windows 10 Setup:    
-<img width="1160" height="605" alt="image" src="https://github.com/user-attachments/assets/5d6ac8eb-0b99-4ca1-9fe0-5fe2874c3a69" />    
-<img width="1358" height="614" alt="image" src="https://github.com/user-attachments/assets/3f2d35ad-a179-4e23-8672-076d4650d457" />    
+<img width="1601" height="499" alt="image" src="https://github.com/user-attachments/assets/a93e0c4f-1212-422b-9bcd-8dcf7a75c0bf" />    
+Then upload the Windows 11 iso and put it ide2 in CD/DVD:    
+<img width="1595" height="634" alt="image" src="https://github.com/user-attachments/assets/a6902ba8-be8a-46fd-99d6-7a4c4bfb1bbb" />    
+
+
+
 
 
 
