@@ -359,6 +359,9 @@ Then type nslookup lab.local to see if it can connect:
 <img width="577" height="213" alt="image" src="https://github.com/user-attachments/assets/953dfeeb-8752-4c6e-98f1-facd3f23eb94" />    
 Then on the DC type ping 192.168.56.20 to see if can talk with the Client VM:    
 <img width="534" height="196" alt="image" src="https://github.com/user-attachments/assets/c0537fe3-b709-40d0-a4aa-b072085c6f35" />    
+If you didn't do so in the Proxmox environment type Add-Computer -DomainName "lab.local" -Credential (Get-Credential) -Restart to see this:    
+<img width="1113" height="626" alt="image" src="https://github.com/user-attachments/assets/2d0e1b18-8a8a-4a56-a40c-eeeb47d45ce8" />    
+Enter in the credentials for the DC
 
 
 
