@@ -346,7 +346,11 @@ After restarting, type Get-NetAdapter and see this result:
 Make sure to get rid of the second network device and one the first one, set the bridge to vmbr1 and potentially keep the Model to Virtio or change it to either Intel.    
 Then its time to set up the network configuration between the VMs.    
 Type qm set 100 --net0 virtio,bridge=vmbr0 and same with 101.    
-Then go to the DC VM and 
+Then go to the DC VM and type Remove-NetIPAddress -InterfaceAlias "Ethernet" -Confirm:$false.    
+Then type New-NetIPAddress -InterfaceAlias "Ethernet" -IPAddress 192.168.56.10 -PrefixLength 24 to set it once more.    
+Then type Set-DnsClientServerAddress -InterfaceAlias "Ethernet" -ServerAddress 127.0.0.1, then ipconfig /all.    
+Then its time to go back to the Windows 11 Client VM in Proxmox.    
+
 
 
 
