@@ -335,7 +335,15 @@ Then enter the password and wait a few minutes for the Windows normal screen to 
 Then click on File Explorer and go to the drive that says virtio-win like so and navigate to the guest agent folder:    
 <img width="794" height="602" alt="image" src="https://github.com/user-attachments/assets/fd38ba07-868e-47b1-a6cc-7e0e05bb390e" />    
 Then click on the second option to begin the installation. 
-*Make sure to have QEMU checked to enable in options to proceed, and or you can skip it for now and test network connectivity with the DC*
+*Make sure to have QEMU checked to enable in options to proceed, and or you can skip it for now and test network connectivity with the DC*    
+Then go to Device Manager, click on view and then click on show hidden devices, then click on Unknown device and click on update driver:    
+<img width="532" height="511" alt="image" src="https://github.com/user-attachments/assets/9ca295d3-fbd9-4782-9fbf-0b14c2f6d2e5" />    
+Then click on browse my computer for drivers:    
+<img width="625" height="454" alt="image" src="https://github.com/user-attachments/assets/4ee923b6-411c-4c51-b197-c055d5a8a0c0" />    
+Then click on browse and find the virtio driver, then find NetKVM, then w11, then amd64, then save    
+
+
+
 
 
 
