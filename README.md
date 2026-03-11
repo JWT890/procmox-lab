@@ -317,6 +317,7 @@ To free up some space. Then type tar -xvf Win11-Client01.ova Win11-Client01-disk
 
 To properly install Windows 11 on Proxmox:    
 <img width="1601" height="499" alt="image" src="https://github.com/user-attachments/assets/a93e0c4f-1212-422b-9bcd-8dcf7a75c0bf" />    
+*Or do Skyline-Client to speed it up a little bit and access other things.*    
 Then upload the Windows 11 iso and put it ide2 in CD/DVD:    
 <img width="1595" height="634" alt="image" src="https://github.com/user-attachments/assets/a6902ba8-be8a-46fd-99d6-7a4c4bfb1bbb" />    
 The sata0 should be the imported vmdk and the ide2 should be the Windows 11 iso needed in a few minutes.    
