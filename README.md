@@ -343,6 +343,11 @@ Then click on browse my computer for drivers:
 Then click on browse and find the virtio driver, then find NetKVM, then w11, then amd64, then save. Or go to the file folder drive with it in there and install it then restart.    
 After restarting, type Get-NetAdapter and see this result:    
 <img width="1090" height="186" alt="image" src="https://github.com/user-attachments/assets/efec0c6b-dfe9-4153-94c7-9326e7d5d47b" />    
+Make sure to get rid of the second network device and one the first one, set the bridge to vmbr1 and potentially keep the Model to Virtio or change it to either Intel.    
+Then its time to set up the network configuration between the VMs.    
+Type qm set 100 --net0 virtio,bridge=vmbr0 and same with 101.    
+Then go to the DC VM and 
+
 
 
 
