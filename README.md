@@ -340,7 +340,11 @@ Then go to Device Manager, click on view and then click on show hidden devices, 
 <img width="532" height="511" alt="image" src="https://github.com/user-attachments/assets/9ca295d3-fbd9-4782-9fbf-0b14c2f6d2e5" />    
 Then click on browse my computer for drivers:    
 <img width="625" height="454" alt="image" src="https://github.com/user-attachments/assets/4ee923b6-411c-4c51-b197-c055d5a8a0c0" />    
-Then click on browse and find the virtio driver, then find NetKVM, then w11, then amd64, then save    
+Then click on browse and find the virtio driver, then find NetKVM, then w11, then amd64, then save. Or go to the file folder drive with it in there and install it then restart.    
+After restarting, type Get-NetAdapter and see this result:    
+<img width="1090" height="186" alt="image" src="https://github.com/user-attachments/assets/efec0c6b-dfe9-4153-94c7-9326e7d5d47b" />    
+
+
 
 
 
