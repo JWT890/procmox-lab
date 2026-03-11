@@ -349,7 +349,18 @@ Type qm set 100 --net0 virtio,bridge=vmbr0 and same with 101.
 Then go to the DC VM and type Remove-NetIPAddress -InterfaceAlias "Ethernet" -Confirm:$false.    
 Then type New-NetIPAddress -InterfaceAlias "Ethernet" -IPAddress 192.168.56.10 -PrefixLength 24 to set it once more.    
 Then type Set-DnsClientServerAddress -InterfaceAlias "Ethernet" -ServerAddress 127.0.0.1, then ipconfig /all.    
-Then its time to go back to the Windows 11 Client VM in Proxmox.    
+Then its time to go back to the Windows 11 Client VM in Proxmox.   
+Type Get-NetAdapter to see the Interface Description like below:    
+<img width="1092" height="127" alt="image" src="https://github.com/user-attachments/assets/8a19766b-8f9e-4ea2-aa31-7b4fc9390e87" />    
+Then type New-NetIPAddress -InterfaceAlias "Ethernet 3" -IPAddress 192.168.56.20 -PrefixLength 24 to set the IP Address of the VM.    
+Then type Set-DnsClientServerAddress -InterfaceAlias "Ethernet 3" -ServerAddresses 192.168.56.10 and then ping 192.168.56.10:    
+<img width="980" height="254" alt="image" src="https://github.com/user-attachments/assets/2fcefd39-b309-470d-a1b9-5af2995bdee8" />    
+Then type nslookup lab.local to see if it can connect:    
+<img width="577" height="213" alt="image" src="https://github.com/user-attachments/assets/953dfeeb-8752-4c6e-98f1-facd3f23eb94" />    
+
+
+
+
 
 
 
