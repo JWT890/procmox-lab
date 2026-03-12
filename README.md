@@ -365,6 +365,8 @@ Enter in the credentials for the DC, then it will restart. Wait for a little bit
 <img width="1278" height="866" alt="image" src="https://github.com/user-attachments/assets/f5293a2f-8d6b-46be-91b5-c8952196fab8" />    
 Then enter in the credentials for the bjohnson user like before. And you should see the login screen and go from there.    
 
+In summary, this procmox‑lab project provides a step‑by‑step demonstration of how to build and configure a full virtualized Windows domain lab environment using Proxmox VE as the hypervisor. It walks through installing Proxmox, creating and setting up Windows Server and Windows 11 virtual machines, establishing an Active Directory domain, and joining a client workstation to that domain. The repository highlights practical virtualization skills and Windows administrative concepts in a controlled lab context, making it a useful hands‑on resource for anyone looking to learn Proxmox deployment alongside fundamental enterprise services such as DNS and Active Directory integration.    
+
 
 
 
